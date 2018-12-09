@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	background-color: black;
+	background-image: url('images/img7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#title{
+	color: white;
+	text-align: center;
+}
+#description{
+	text-align: center;
+	margin-left: 25px;
+	height: 700px;
+	width: 550px;
+	color: white;
+	font-size: 24px;
+	float: left;
+}
+#game-container{
+}
+#levelImage{
+	border: solid;
+	border-color: white;
+	float: right;
+	height:800px;
+	width:1300px;
+}
+#game-buttons{
+	position: absolute;
+	top: 797px;
+}
+button{
+	cursor: pointer;
+	margin: 20px;
+	width: 255px;
+	height: 70px;
+	font-size: 20px;
+	color: #8e1411;
+	background-color: black;
+	border-style: none;
+
+}
+button:hover{
+	background-color: #312E2D;
+	color: red;
+}
+#inventoryItem{
+	height: 50px;
+	width: 100px;
+	color: red;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
