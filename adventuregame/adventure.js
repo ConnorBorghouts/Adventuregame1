@@ -40,6 +40,7 @@ function start(){
 
 	button_1.innerHTML = ('Start de Game');	
 	button_1.onclick = function(){
+		item1 = 'no'
 		background.loop = true;
         background.play();	
 		hoofdstuk1();}
